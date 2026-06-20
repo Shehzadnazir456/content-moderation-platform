@@ -1,0 +1,115 @@
+.submit-page {
+}
+
+.upload-area {
+  background: #fff;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.upload-area h1 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #1e1b4b;
+}
+
+.file-input {
+  margin-bottom: 16px;
+}
+
+.preview-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.preview-item {
+  text-align: center;
+}
+
+.preview-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.preview-item p {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 4px;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.loading-text {
+  color: #4f46e5;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.result-card {
+  border-left: 5px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.result-card.approved {
+  border-left-color: #16a34a;
+}
+
+.result-card.flagged {
+  border-left-color: #ca8a04;
+}
+
+.result-card.blocked {
+  border-left-color: #dc2626;
+}
+
+.result-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.category-table th {
+  text-align: left;
+  padding: 8px 10px;
+  background: #f9fafb;
+  color: #374151;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.category-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: top;
+}
+
+.detected-yes {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.detected-no {
+  color: #16a34a;
+}

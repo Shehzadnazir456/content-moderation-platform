@@ -1,0 +1,78 @@
+.queue-page h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1e1b4b;
+}
+
+.queue-page .subtitle {
+  color: #6b7280;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.appeal-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.appeal-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.user-info {
+  font-size: 14px;
+}
+
+.user-info strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.user-info span {
+  color: #6b7280;
+}
+
+.justification-box {
+  background: #f9fafb;
+  border-left: 4px solid #d1d5db;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.response-area {
+  margin-bottom: 16px;
+}
+
+.response-area label {
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.response-area textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 13px;
+  resize: vertical;
+  font-family: 'Inter', sans-serif;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+}
